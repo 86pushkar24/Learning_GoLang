@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-// constants
-const PI float64 = 3.14 // constant value of PI
+// constants -- initialized with Capital letter and have PUBLIC Access
+const LoginToken string = "gibrishh" // constant value of PI
 
 func main() {
 	var userName string = "Pushkar"
@@ -29,6 +29,6 @@ func main() {
 	fmt.Println("City:", city)
 	fmt.Printf("The type of variable is %T\n", city)
 
-	fmt.Println("The value of PI is", PI)
-	fmt.Printf("The type of variable is %T\n", PI)
+	fmt.Println("Login Token:", LoginToken)
+	fmt.Printf("The type of variable is %T\n", LoginToken)
 }
