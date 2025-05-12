@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // constants -- initialized with Capital letter and have PUBLIC Access
-const LoginToken string = "gibrishh" // constant value of PI
+const LoginToken string = "gibrishh" 
 
 func main() {
 	var userName string = "Pushkar"
